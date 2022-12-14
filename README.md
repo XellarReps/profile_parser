@@ -32,7 +32,13 @@ Usage of ./profile_parser:
 ```
 
 To run, you need to have two files:
-1) the json file received when launching the Inference Session (onnx python module) with the setting enable_profiling = True;
-2) the txt file received when running the visualizer with the parameters --info_mode=nodes --write_mode=file
+1) the json file received when launching the Inference Session (onnx python module) with the setting 
+```python
+enable_profiling = True;
+```
+2) the txt file received when running the visualizer with the parameters 
+```bash
+--info_mode=nodes --write_mode=file
+```
 
 It is necessary to specify the paths to these files at startup, and also specify where to put the resulting csv file.
