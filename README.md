@@ -31,6 +31,7 @@ Usage of ./profile_parser:
         output path (csv file)
 ```
 
+### Necessary conditions for the launch
 To run, you need to have two files:
 1) the json file received when launching the Inference Session (onnx python module) with the setting 
 ```python
